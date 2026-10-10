@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>DENK Innovation Limited</title>
+</head>
+<body>
+
+<!-- Navigation -->
+<header class="navbar">
+    <div class="brand">
+        <img src="img_logo.png" alt="Denk Logo" class="logo">
+        <div class="text">
+            <div class="main-text">
+                <span class="denk">DENK</span><span class="innovation">innovation</span>
+            </div>
+            <div class="sub-text">LIMITED</div>
+        </div>
+    </div>
+    <div class="social-icons">
+        <a href="https://instagram.com/denk_innovations_ltd" target="_blank">
+            <i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com/yourusername" target="_blank">
+            <i class="fab fa-facebook-f"></i></a>
+        <a href="https://tiktok.com/@denk_innovations" target="_blank">
+            <i class="fab fa-tiktok"></i></a>
+        <a href="https://linkedin.com/company/denk-innovations" target="_blank">
+            <i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-text">
+        <h2>Revolutionizing Kitchen Efficiency<hr></h2>
+        <h1>
+            <span class="agricut">AgriCut</span>
+            <span class="vegetable">Vegetable</span><br>
+            <span class="cutting">Cutting Machine</span>
+        </h1>
+        <p>Fast • Safe • Efficient</p>
+        <button class="btn btn-product" onclick="showProducts()">View Product</button>
+        <button class="btn btn-contact" onclick="showContact()">Contact Us</button>
+    </div>
+    <img src="img_cutternew (2).png" alt="AgriCut Machine" width="450" height="500">
+    <div id="dynamic-content" class="dynamic-content">
+
+    <!-- PRODUCTS CONTENT -->
+    <div id="product-content" class="content-box">
+        <h3>Our Machines</h3>
+        <div class="mini-gallery">
+            <img src="img_cutternew (2).png" alt="Machine 1">
+            <img src="machine2.png" alt="Machine 2">
+            <img src="machine3.png" alt="Machine 3">
+        </div>
+    </div>
+
+    <!-- CONTACT CONTENT -->
+    <div id="contact-content" class="content-box">
+        <h3>Contact Us</h3>
+        <p><strong>Phone:</strong> +255 XXX XXX XXX</p>
+        <p><strong>Email:</strong> denkinnovation@gmail.com</p>
+        <p><strong>Location:</strong> Arusha, Tanzania</p>
+    </div>
+
+    </div>
+</section>
+
+<!-- ABOUT + PRODUCTS -->
+<section class="about-product-section">
+    <div class="two-column-layout">
+        <!-- About Column -->
+        <div class="about-column">
+            <h2>About DENK Innovation Limited<hr></h2>
+            <p>
+                DENK Innovation Limited is a Tanzanian engineering startup focused on developing innovative 
+                machines that improve food preparation efficiency. Our AgriCut machine helps 
+                institutions like schools, restaurants, and hotels save time, reduce cuts and labor costs.
+            </p>
+            <div class="mission-highlight">
+                <p>Our mission is to enhance productivity and reduce labor costs.</p>
+            </div>
+        </div>
+        <!-- Product Column -->
+        <div class="product-column">
+            <h2>Our Products<hr></h2>
+            <div class="product-section">
+                <div class="product-image">
+                    <img src="img_cutternew (2).png" alt="AgriCut Vegetable Cutter Machine">
+                </div>
+                <div class="product-features">
+                    <ul class="features-list">
+                        <li><span class="check-icon">✓</span>High Speed Vegetable Cutting Machine</li>
+                        <li><span class="check-icon">✓</span>Durable Stainless Steel Blades</li>
+                        <li><span class="check-icon">✓</span>Safe and Easy Operation</li>
+                        <li><span class="check-icon">✓</span>Easy to Clean</li>
+                        <li><span class="check-icon">✓</span>Energy Efficient</li>
+                    </ul>
+                    <button class="demo-button" onclick="alert('Thank you for your interest! A representative will contact you soon to schedule a demo.')">
+                        Request a Demo →
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<!-- TEAM SECTION -->
+<section class="team">
+    <h2>Our Team<hr></h2>
+    <div class="team-container">
+        <div class="member">
+            <img src="img_boniphace.jpg" alt="Boniphace Benjamin">
+            <h3>Boniphace Benjamin</h3>
+            <p>Founder & Developer</p>
+        </div>
+        <div class="member">
+            <img src="img_robert (1).jpeg" alt="Robert Felix">
+            <h3>Robert Felix</h3>
+            <p>Business Development</p>
+        </div>
+        <div class="member">
+            <img src="img_agnes.jpeg" alt="Agnes Deogratius">
+            <h3>Agnes Deogratius</h3>
+            <p>Marketing & Networking</p>
+        </div>
+        <div class="member">
+            <img src="img_robert (2).jpeg" alt="Daniel Mduma">
+            <h3>Daniel Mduma</h3>
+            <p>Mechanical Engineer</p>
+        </div>
+    </div>
+</section>
+
+<!-- PARTNERS SECTION -->
+<section class="partners">
+    <h2>Our Partners<hr></h2>
+    <p class="subtitle">We are proud to collaborate with these esteemed organizations.</p>
+    <div class="partners-logos">
+        <img src="Temdo.png" alt="Partner 1">
+        <img src="St Jude.jpg" alt="Partner 2">
+        <img src="Ashesi.png" alt="Partner 3">
+        <img src="3empower.png" alt="Partner 4">
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer>
+    &copy; 2026 DENK Innovation Limited. All rights reserved.
+</footer>
+
+</body>
+</html>
